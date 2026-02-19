@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thekkumpuram Family Tree — Six generations of ancestors, relatives, and descendants mapped across time." />
+  <title>Family Tree — Thekkumpuram Family Archive</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Thekkumpuram Family Archive — Home">
+        <svg class="nav-logo-mark" width="28" height="36" viewBox="0 0 30 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/>
+          <path d="M15 5C15 5 13.5 8 13.5 9.5C13.5 10.33 14.17 11 15 11C15.83 11 16.5 10.33 16.5 9.5C16.5 8 15 5 15 5Z" fill="var(--cream)" opacity="0.5"/>
+          <path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/>
+          <path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/>
+          <rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/>
+          <rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/>
+          <ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/>
+          <rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/>
+          <ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/>
+          <rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/>
+          <ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">Thekkumpuram</span>
+          <span class="nav-logo-tagline">Family Archive · Est. 1854</span>
+        </div>
+      </a>
+      <nav class="nav-menu" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="family.html" class="nav-link active">Family</a>
+        <a href="history.html" class="nav-link">History</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="blog.html" class="nav-link">Stories</a>
+      </nav>
+      <button class="nav-search-btn" aria-label="Search the archive"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="search-overlay" role="dialog" aria-modal="true"><button class="search-close">✕</button><div class="search-box"><h3>Search the Archive</h3><div class="search-input-wrap"><input type="search" placeholder="Search ancestors, places, years…" /><button class="search-btn" type="button">Search</button></div></div></div>
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container"><div class="breadcrumb-inner"><a href="index.html">Home</a><span class="breadcrumb-sep">›</span><span aria-current="page">Family Tree</span></div></div>
+  </nav>
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <span class="tag" style="display:block;margin-bottom:0.75rem;">Six Generations</span>
+      <div class="divider center" aria-hidden="true"></div>
+      <h1 id="page-title">The <em>Thekkumpuram</em> Family Tree</h1>
+      <p>A visual lineage spanning 1832 to the present — mapping the connections, branches, and bonds of our tharavadu.</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- FAMILY TREE DIAGRAM -->
+    <section class="family-tree-section section-pad" aria-labelledby="tree-heading">
+      <div class="container">
+        <div class="section-heading">
+          <span class="tag">Interactive Lineage</span>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 id="tree-heading">Ancestral <em>Diagram</em></h2>
+        </div>
+        <div class="tree-controls" role="group" aria-label="Tree view controls">
+          <button class="tree-btn active" type="button">All Generations</button>
+          <button class="tree-btn" type="button">Ancestors Only</button>
+          <button class="tree-btn" type="button">Descendants</button>
+          <button class="tree-btn" type="button">Compact View</button>
+        </div>
+        <div class="tree-wrapper" role="region" aria-label="Family tree diagram">
+          <div class="tree-container">
+            <span class="tree-gen-label">First Generation · 1854</span>
+            <div class="tree-gen">
+              <div class="tree-node featured" tabindex="0" role="button" aria-label="Raman Thekkumpuram">
+                <div class="tree-avatar" aria-hidden="true">👴</div>
+                <div class="tree-name">Raman<br/>Thekkumpuram</div>
+                <div class="tree-years">1832 – 1904</div>
+                <div class="tree-rel">Patriarch</div>
+              </div>
+              <div style="display:flex;align-items:center;padding:0 0.5rem;color:var(--gold-light);font-family:var(--font-display);font-size:1.2rem;padding-top:0.5rem;">⚭</div>
+              <div class="tree-node featured" tabindex="0" role="button" aria-label="Devaki Amma">
+                <div class="tree-avatar" aria-hidden="true">👵</div>
+                <div class="tree-name">Devaki Amma</div>
+                <div class="tree-years">1838 – 1911</div>
+                <div class="tree-rel">Matriarch</div>
+              </div>
+            </div>
+
+            <div style="width:100%;height:48px;position:relative;display:flex;justify-content:center;align-items:center;" aria-hidden="true">
+              <svg width="500" height="48" style="overflow:visible;">
+                <line x1="250" y1="0" x2="250" y2="24" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="80" y1="24" x2="420" y2="24" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="80" y1="24" x2="80" y2="48" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="250" y1="24" x2="250" y2="48" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="420" y1="24" x2="420" y2="48" stroke="var(--gold-light)" stroke-width="1"/>
+              </svg>
+            </div>
+
+            <span class="tree-gen-label">Second Generation · 1860s – 1880s</span>
+            <div class="tree-gen">
+              <div class="tree-node" tabindex="0" role="button" aria-label="Krishnan Nair">
+                <div class="tree-avatar" aria-hidden="true">👨</div>
+                <div class="tree-name">Krishnan<br/>Nair</div>
+                <div class="tree-years">1862 – 1936</div>
+                <div class="tree-rel">Karanavar</div>
+              </div>
+              <div class="tree-node" tabindex="0" role="button" aria-label="Lakshmi Amma">
+                <div class="tree-avatar" aria-hidden="true">👩</div>
+                <div class="tree-name">Lakshmi<br/>Amma</div>
+                <div class="tree-years">1866 – 1942</div>
+                <div class="tree-rel">Daughter</div>
+              </div>
+              <div class="tree-node" tabindex="0" role="button" aria-label="Narayanan Nair">
+                <div class="tree-avatar" aria-hidden="true">🧔</div>
+                <div class="tree-name">Narayanan<br/>Nair</div>
+                <div class="tree-years">1870 – 1931</div>
+                <div class="tree-rel">Son</div>
+              </div>
+            </div>
+
+            <div style="width:100%;height:48px;position:relative;display:flex;justify-content:center;align-items:center;" aria-hidden="true">
+              <svg width="600" height="48" style="overflow:visible;">
+                <line x1="100" y1="0" x2="100" y2="24" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="100" y1="24" x2="300" y2="24" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="180" y1="24" x2="180" y2="48" stroke="var(--gold-light)" stroke-width="1"/>
+                <line x1="300" y1="24" x2="300" y2="48" stroke="var(--gold-light)" stroke-width="1"/>
+              </svg>
+            </div>
+
+            <span class="tree-gen-label">Third Generation · 1890s – 1910s</span>
+            <div class="tree-gen" style="gap:2rem;">
+              <div class="tree-node" tabindex="0" role="button" aria-label="Parukutty Amma">
+                <div class="tree-avatar" aria-hidden="true">👩</div>
+                <div class="tree-name">Parukutty<br/>Amma</div>
+                <div class="tree-years">1892 – 1970</div>
+                <div class="tree-rel">Granddaughter</div>
+              </div>
+              <div class="tree-node" tabindex="0" role="button" aria-label="Govindan Nair">
+                <div class="tree-avatar" aria-hidden="true">👨</div>
+                <div class="tree-name">Govindan<br/>Nair</div>
+                <div class="tree-years">1895 – 1968</div>
+                <div class="tree-rel">Grandson</div>
+              </div>
+              <div class="tree-node" tabindex="0" role="button" aria-label="Sarada Amma">
+                <div class="tree-avatar" aria-hidden="true">👱‍♀️</div>
+                <div class="tree-name">Sarada<br/>Amma</div>
+                <div class="tree-years">1900 – 1975</div>
+                <div class="tree-rel">Granddaughter</div>
+              </div>
+              <div class="tree-node" tabindex="0" role="button" aria-label="Madhavan Nair">
+                <div class="tree-avatar" aria-hidden="true">🧑</div>
+                <div class="tree-name">Madhavan<br/>Nair</div>
+                <div class="tree-years">1904 – 1979</div>
+                <div class="tree-rel">Grandson</div>
+              </div>
+            </div>
+
+            <div style="margin-top:2rem;text-align:center;">
+              <span style="font-family:var(--font-ui);font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-light);padding:0.5rem 1.25rem;cursor:pointer;">
+                + 3 More Generations · Click to Expand
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBER PROFILES -->
+    <section class="members-section section-pad" aria-labelledby="members-heading">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="tag">Member Profiles</span>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 id="members-heading">All <em>Family Members</em></h2>
+        </div>
+
+        <!-- Gen I -->
+        <div class="generation-group reveal">
+          <div class="generation-header">
+            <span class="generation-number">I</span>
+            <div><div class="generation-title">The Founders</div><div class="generation-count">2 Members · 1832–1911</div></div>
+          </div>
+          <div class="members-grid">
+            <article class="member-card">
+              <div class="member-card-header">
+                <div class="member-avatar" aria-hidden="true">👴</div>
+                <div>
+                  <div class="member-name">Raman Thekkumpuram</div>
+                  <div class="member-years">b. 1832 · d. 1904</div>
+                  <div class="member-role">Patriarch · Farmer · Karanavar</div>
+                </div>
+              </div>
+              <p class="member-bio">Born in central Thrissur district, Raman Nair established the family tharavadu in 1854 on fertile paddy land near the Periyar tributary. He served as the respected karanavar for over four decades, overseeing land cultivation, community disputes, and the ritual calendar of the family. Under his stewardship, the Thekkumpuram holdings grew to encompass over 80 acres of productive land.</p>
+              <div class="member-links">
+                <span class="member-link-tag">Father of Krishnan</span>
+                <span class="member-link-tag">Husband of Devaki</span>
+                <span class="member-link-tag">View Land Records</span>
+              </div>
+            </article>
+            <article class="member-card">
+              <div class="member-card-header">
+                <div class="member-avatar" aria-hidden="true">👵</div>
+                <div>
+                  <div class="member-name">Devaki Amma</div>
+                  <div class="member-years">b. 1838 · d. 1911</div>
+                  <div class="member-role">Matriarch · Keeper of Tradition</div>
+                </div>
+              </div>
+              <p class="member-bio">Born into the Kizhakkedom family of Irinjalakuda, she came to the Thekkumpuram tharavadu as a young woman and became its unshakeable center. Devaki Amma was the keeper of family rituals, of stories, of names and birth dates — a living archive before any written record was maintained. Her knowledge of the family's oral genealogy extended back five generations.</p>
+              <div class="member-links">
+                <span class="member-link-tag">Mother of Krishnan</span>
+                <span class="member-link-tag">Wife of Raman</span>
+                <span class="member-link-tag">Oral Histories</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Gen II -->
+        <div class="generation-group reveal">
+          <div class="generation-header">
+            <span class="generation-number">II</span>
+            <div><div class="generation-title">The Second Generation</div><div class="generation-count">4 Members · 1860–1882</div></div>
+          </div>
+          <div class="members-grid">
+            <article class="member-card">
+              <div class="member-card-header">
+                <div class="member-avatar" aria-hidden="true">👨</div>
+                <div>
+                  <div class="member-name">Krishnan Nair</div>
+                  <div class="member-years">b. March 1862 · d. August 1936</div>
+                  <div class="member-role">Karanavar · Landowner · Builder</div>
+                </div>
+              </div>
+              <p class="member-bio">Eldest son and second karanavar, Krishnan expanded the tharavadu's influence during the British colonial period. He commissioned the grand nalukettu — a traditional four-wing courtyard home — in 1905, a structure that remains the ceremonial heart of the family. He also secured English-medium education for his sons, a decision that shaped the family's next generation.</p>
+              <div class="member-links">
+                <span class="member-link-tag">Son of Raman</span>
+                <span class="member-link-tag">Father of Govindan</span>
+                <span class="member-link-tag">Built Nalukettu 1905</span>
+              </div>
+            </article>
+            <article class="member-card">
+              <div class="member-card-header">
+                <div class="member-avatar" aria-hidden="true">👩</div>
+                <div>
+                  <div class="member-name">Lakshmi Amma</div>
+                  <div class="member-years">b. 1866 · d. 1942</div>
+                  <div class="member-role">Daughter · Temple Patron</div>
+                </div>
+              </div>
+              <p class="member-bio">Lakshmi remained devoted to the ancestral home and the local temple throughout her life. She was a gifted cook whose recipes — for payasam, olan, and thoran prepared for festivals — were passed down verbally through four generations of women in the tharavadu. Her grandson compiled these recipes in a notebook in 1988.</p>
+              <div class="member-links">
+                <span class="member-link-tag">Daughter of Raman</span>
+                <span class="member-link-tag">Kerala Branch</span>
+              </div>
+            </article>
+            <article class="member-card">
+              <div class="member-card-header">
+                <div class="member-avatar" aria-hidden="true">🧔</div>
+                <div>
+                  <div class="member-name">Narayanan Nair</div>
+                  <div class="member-years">b. 1870 · d. 1931</div>
+                  <div class="member-role">Son · District Clerk</div>
+                </div>
+              </div>
+              <p class="member-bio">Youngest surviving son of Raman, Narayanan was the first of the family to enter government service, working as a district records clerk in Thrissur. He married Ammini Amma of the Valiyath family in 1894 and maintained the family's land records with meticulous care. His documents form the foundation of the family's written archive.</p>
+              <div class="member-links">
+                <span class="member-link-tag">Son of Raman</span>
+                <span class="member-link-tag">Father of Madhavan</span>
+                <span class="member-link-tag">View Documents</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="reveal" style="text-align:center;margin-top:1.5rem;">
+          <a href="#" class="btn btn-outline">Load All Generations</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex;align-items:center;gap:0.65rem;margin-bottom:0.25rem;">
+            <svg width="20" height="26" viewBox="0 0 30 38" fill="none" style="color:var(--gold-light);" aria-hidden="true"><path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/><path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/><path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/><rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/><rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/><ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/><rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/><ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/><rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/><ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/></svg>
+            <p class="footer-brand-name">Thekkumpuram</p>
+          </div>
+          <p class="footer-brand-sub">Family Archive · Est. 1854 · Thrissur, Kerala</p>
+          <p class="footer-about">A living archive dedicated to preserving the stories, portraits, and heritage of the Thekkumpuram tharavadu across six generations and two centuries.</p>
+        </div>
+        <div><p class="footer-heading">Navigate</p><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="family.html">Family Tree</a></li><li><a href="history.html">History</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Stories</a></li></ul></div>
+        <div><p class="footer-heading">Archive</p><ul class="footer-links"><li><a href="#">Documents</a></li><li><a href="#">Land Records</a></li><li><a href="#">Temple Records</a></li><li><a href="#">Oral Histories</a></li><li><a href="#">Jatakas</a></li></ul></div>
+        <div><p class="footer-heading">Contact</p><ul class="footer-links"><li><a href="mailto:archive@thekkumpuram.org">archive@thekkumpuram.org</a></li><li><a href="#">Submit a Correction</a></li><li><a href="#">Contribute Photos</a></li><li><a href="#">Share a Memory</a></li></ul></div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2024 Thekkumpuram Family Archive. All rights reserved.</p>
+        <p style="color:rgba(250,246,239,0.4);">Curated with care — for those who came before and those who follow.</p>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top" aria-label="Scroll to top of page"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Thekkumpuram Family Archive — Preserving six generations of Kerala heritage, history, and memory." />
+  <title>Thekkumpuram Family — Heritage Archive</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header" role="banner">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Thekkumpuram Family Archive — Home">
+        <svg class="nav-logo-mark" width="28" height="36" viewBox="0 0 30 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/>
+          <path d="M15 5C15 5 13.5 8 13.5 9.5C13.5 10.33 14.17 11 15 11C15.83 11 16.5 10.33 16.5 9.5C16.5 8 15 5 15 5Z" fill="var(--cream)" opacity="0.5"/>
+          <path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/>
+          <path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/>
+          <rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/>
+          <rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/>
+          <ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/>
+          <rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/>
+          <ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/>
+          <rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/>
+          <ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">Thekkumpuram</span>
+          <span class="nav-logo-tagline">Family Archive · Est. 1854</span>
+        </div>
+      </a>
+      <nav class="nav-menu" role="navigation" aria-label="Main navigation">
+        <a href="index.html"   class="nav-link active">Home</a>
+        <a href="family.html"  class="nav-link">Family</a>
+        <a href="history.html" class="nav-link">History</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="blog.html"    class="nav-link">Stories</a>
+      </nav>
+      <button class="nav-search-btn" aria-label="Search the archive">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="search-overlay" role="dialog" aria-modal="true" aria-label="Search the archive">
+    <button class="search-close" aria-label="Close search">✕</button>
+    <div class="search-box">
+      <h3>Search the Archive</h3>
+      <div class="search-input-wrap">
+        <input type="search" placeholder="Search ancestors, places, years…" aria-label="Search query" />
+        <button class="search-btn" type="button">Search</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===================== HERO ========================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-ornament" aria-hidden="true"></div>
+
+      <div class="hero-crest" aria-hidden="true">
+        <svg width="56" height="70" viewBox="0 0 30 38" fill="none" xmlns="http://www.w3.org/2000/svg" style="color:var(--gold);">
+          <path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/>
+          <path d="M15 5C15 5 13.5 8 13.5 9.5C13.5 10.33 14.17 11 15 11C15.83 11 16.5 10.33 16.5 9.5C16.5 8 15 5 15 5Z" fill="var(--parchment)" opacity="0.6"/>
+          <path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/>
+          <path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/>
+          <rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/>
+          <rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/>
+          <ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/>
+          <rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/>
+          <ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/>
+          <rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/>
+          <ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/>
+          <circle cx="11" cy="16" r="0.9" fill="var(--parchment)" opacity="0.5"/>
+          <circle cx="15" cy="15.5" r="0.9" fill="var(--parchment)" opacity="0.5"/>
+          <circle cx="19" cy="16" r="0.9" fill="var(--parchment)" opacity="0.5"/>
+        </svg>
+      </div>
+
+      <p class="hero-eyebrow">Est. 1854 · Thrissur, Kerala, India</p>
+
+      <h1 class="hero-title" id="hero-title">
+        The <em>Thekkumpuram</em><br/>Family
+      </h1>
+
+      <p class="hero-subtitle">Where the lamp is lit and the roots run deep</p>
+
+      <div class="hero-divider" aria-hidden="true"></div>
+
+      <p class="hero-desc">
+        A living archive of six generations — preserving the stories, portraits,
+        migrations, and milestones of the Thekkumpuram tharavadu from the paddy fields
+        of Thrissur to every corner of the world.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="family.html" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Explore the Family Tree
+        </a>
+        <a href="history.html" class="btn btn-outline">Our History</a>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ===================== NAV CARDS =================== -->
+    <section class="nav-cards" aria-label="Sections">
+      <div class="container">
+        <div class="nav-cards-grid">
+          <a href="family.html" class="nav-card">
+            <span class="nav-card-icon" aria-hidden="true">🌳</span>
+            <div class="nav-card-title">Family Tree</div>
+            <p class="nav-card-desc">Six generations of ancestors, relatives, and descendants — visually mapped across our lineage.</p>
+            <span class="nav-card-link">Explore Lineage →</span>
+          </a>
+          <a href="history.html" class="nav-card">
+            <span class="nav-card-icon" aria-hidden="true">📜</span>
+            <div class="nav-card-title">Family History</div>
+            <p class="nav-card-desc">Milestones, migrations, and the defining moments of our tharavadu spanning two centuries.</p>
+            <span class="nav-card-link">Read History →</span>
+          </a>
+          <a href="gallery.html" class="nav-card">
+            <span class="nav-card-icon" aria-hidden="true">🖼</span>
+            <div class="nav-card-title">Gallery</div>
+            <p class="nav-card-desc">Portraits, temple ceremonies, family gatherings, and photographs across the generations.</p>
+            <span class="nav-card-link">View Gallery →</span>
+          </a>
+          <a href="blog.html" class="nav-card">
+            <span class="nav-card-icon" aria-hidden="true">✍️</span>
+            <div class="nav-card-title">Stories</div>
+            <p class="nav-card-desc">Personal accounts, family lore, and researched essays by family members and descendants.</p>
+            <span class="nav-card-link">Read Stories →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ANCESTORS =================== -->
+    <section class="ancestors section-pad" aria-labelledby="ancestors-heading">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="tag">Featured Ancestors</span>
+          <div class="divider center" aria-hidden="true"></div>
+          <h2 id="ancestors-heading">The <em>Faces</em> of Our Lineage</h2>
+          <p>Portraits and profiles of the men and women whose lives shaped the Thekkumpuram name across generations.</p>
+        </div>
+
+        <div class="ancestors-grid">
+          <article class="ancestor-card reveal reveal-delay-1">
+            <div class="ancestor-photo-placeholder" role="img" aria-label="Portrait of Raman Thekkumpuram">
+              <span>👴</span>
+            </div>
+            <div class="ancestor-info">
+              <h3 class="ancestor-name">Raman Thekkumpuram</h3>
+              <p class="ancestor-years">b. 1832 · d. 1904</p>
+              <p class="ancestor-bio">Founding patriarch of the tharavadu, Raman Nair established the family homestead near Thrissur in 1854 on ancestral land beside a paddy-filled tributary. A respected farmer and community elder, he served as karanavar for over four decades.</p>
+              <span class="ancestor-rel">1st Generation · Patriarch</span>
+            </div>
+          </article>
+
+          <article class="ancestor-card reveal reveal-delay-2">
+            <div class="ancestor-photo-placeholder" role="img" aria-label="Portrait of Devaki Amma">
+              <span>👵</span>
+            </div>
+            <div class="ancestor-info">
+              <h3 class="ancestor-name">Devaki Amma</h3>
+              <p class="ancestor-years">b. 1838 · d. 1911</p>
+              <p class="ancestor-bio">Born into the Kizhakkedom family, she became the unshakeable matriarch of the tharavadu. Her living memory for oral tradition, genealogy, and ritual kept the family's history alive through three generations of children and grandchildren.</p>
+              <span class="ancestor-rel">1st Generation · Matriarch</span>
+            </div>
+          </article>
+
+          <article class="ancestor-card reveal reveal-delay-3">
+            <div class="ancestor-photo-placeholder" role="img" aria-label="Portrait of Krishnan Nair">
+              <span>👨</span>
+            </div>
+            <div class="ancestor-info">
+              <h3 class="ancestor-name">Krishnan Nair</h3>
+              <p class="ancestor-years">b. 1862 · d. 1936</p>
+              <p class="ancestor-bio">Eldest son and second karanavar. Krishnan expanded the family's paddy holdings during the British period, secured formal education for the next generation, and built the grand nalukettu that still stands in Thrissur as the family's ancestral home.</p>
+              <span class="ancestor-rel">2nd Generation · Karanavar</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-heading center" style="margin-top:3rem;margin-bottom:0;">
+          <a href="family.html" class="btn btn-gold">View All Family Members</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== TIMELINE PREVIEW ============= -->
+    <section class="timeline-section section-pad" aria-labelledby="timeline-heading">
+      <div class="container">
+        <div class="section-heading reveal" style="margin-bottom:3rem;">
+          <span class="tag">Family Timeline</span>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 id="timeline-heading">A History <em>Unfolding</em></h2>
+          <p style="color:rgba(250,246,239,0.65)">Key moments in the Thekkumpuram journey — from Thrissur to the wider world.</p>
+        </div>
+
+        <div class="timeline-preview">
+          <div class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <p class="timeline-year">1854</p>
+            <h3 class="timeline-title">Founding of the Tharavadu</h3>
+            <p class="timeline-desc">Raman Thekkumpuram establishes the family homestead near Thrissur, naming it after the southern quarter of the village — Thekkumpuram.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <p class="timeline-year">1905</p>
+            <h3 class="timeline-title">The Nalukettu is Built</h3>
+            <p class="timeline-desc">Krishnan Nair commissions the grand nalukettu ancestral home — a traditional Kerala courtyard house that becomes the ceremonial heart of the tharavadu.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <p class="timeline-year">1948</p>
+            <h3 class="timeline-title">Post-Independence Dispersal</h3>
+            <p class="timeline-desc">With independence and land reform, branches of the Thekkumpuram family begin moving to Kochi, Kozhikode, and Madras — carrying the family name into a new era.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <p class="timeline-year">1975</p>
+            <h3 class="timeline-title">The Gulf Generation</h3>
+            <p class="timeline-desc">The first Thekkumpuram family members travel to the Gulf for work, beginning a pattern of global migration that defines the fourth and fifth generations.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:3rem;">
+          <a href="history.html" class="btn btn-gold">View Full Timeline</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== BLOG PREVIEW ================ -->
+    <section class="blog-preview section-pad" aria-labelledby="blog-heading">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="tag">Latest Stories</span>
+          <div class="divider center" aria-hidden="true"></div>
+          <h2 id="blog-heading">From the <em>Family Archive</em></h2>
+          <p>Personal essays, oral histories, and researched accounts contributed by family members and descendants worldwide.</p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal reveal-delay-1">
+            <div class="blog-card-img-placeholder" role="img" aria-label="Blog post illustration">🪔</div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-cat">Heritage</span>
+                <span class="blog-card-date">February 14, 2024</span>
+              </div>
+              <h3 class="blog-card-title">The Nilavilakku That Never Goes Out: Ritual and Memory in the Tharavadu</h3>
+              <p class="blog-card-excerpt">How the tradition of the evening lamp-lighting at the Thekkumpuram nalukettu has connected six generations — and what it means to carry that flame into the diaspora.</p>
+              <div class="blog-card-footer">
+                <a href="blog.html" class="blog-card-read">Read Article →</a>
+                <span style="font-family:var(--font-ui);font-size:0.65rem;color:var(--muted);">7 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-2">
+            <div class="blog-card-img-placeholder" role="img" aria-label="Blog post illustration">🌾</div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-cat">History</span>
+                <span class="blog-card-date">December 3, 2023</span>
+              </div>
+              <h3 class="blog-card-title">Paddy, Land, and the Kerala Land Reform Act: How 1969 Changed Everything</h3>
+              <p class="blog-card-excerpt">The land reform that transformed Kerala society also reshaped the Thekkumpuram family's relationship to its ancestral holdings — and set the next generation in motion.</p>
+              <div class="blog-card-footer">
+                <a href="blog.html" class="blog-card-read">Read Article →</a>
+                <span style="font-family:var(--font-ui);font-size:0.65rem;color:var(--muted);">12 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-3">
+            <div class="blog-card-img-placeholder" role="img" aria-label="Blog post illustration">✈️</div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-cat">Migration</span>
+                <span class="blog-card-date">September 22, 2023</span>
+              </div>
+              <h3 class="blog-card-title">From Thrissur to Abu Dhabi: The Story of Our Gulf Generation</h3>
+              <p class="blog-card-excerpt">How three brothers from the Thekkumpuram family became part of Kerala's great migration to the Gulf in the 1970s — and what they found, built, and left behind.</p>
+              <div class="blog-card-footer">
+                <a href="blog.html" class="blog-card-read">Read Article →</a>
+                <span style="font-family:var(--font-ui);font-size:0.65rem;color:var(--muted);">9 min read</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-heading center" style="margin-top:3rem;margin-bottom:0;">
+          <a href="blog.html" class="btn btn-outline">View All Stories</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex;align-items:center;gap:0.65rem;margin-bottom:0.25rem;">
+            <svg width="20" height="26" viewBox="0 0 30 38" fill="none" xmlns="http://www.w3.org/2000/svg" style="color:var(--gold-light);" aria-hidden="true">
+              <path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/>
+              <path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/>
+              <path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/>
+              <rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/>
+              <rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/>
+              <ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/>
+              <rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/>
+              <ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/>
+              <rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/>
+              <ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/>
+            </svg>
+            <p class="footer-brand-name">Thekkumpuram</p>
+          </div>
+          <p class="footer-brand-sub">Family Archive · Est. 1854 · Thrissur, Kerala</p>
+          <p class="footer-about">A living archive dedicated to preserving the stories, portraits, and heritage of the Thekkumpuram tharavadu across six generations and two centuries.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Navigate</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="family.html">Family Tree</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Stories</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Archive</p>
+          <ul class="footer-links">
+            <li><a href="#">Documents</a></li>
+            <li><a href="#">Land Records</a></li>
+            <li><a href="#">Temple Records</a></li>
+            <li><a href="#">Oral Histories</a></li>
+            <li><a href="#">Jatakas &amp; Horoscopes</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <ul class="footer-links">
+            <li><a href="mailto:archive@thekkumpuram.org">archive@thekkumpuram.org</a></li>
+            <li><a href="#">Submit a Correction</a></li>
+            <li><a href="#">Contribute Photos</a></li>
+            <li><a href="#">Share a Memory</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2024 Thekkumpuram Family Archive. All rights reserved.</p>
+        <p style="color:rgba(250,246,239,0.4);">Curated with care — for those who came before and those who follow.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top of page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+  <script src="js/main.js"></script>
+</body>
+</html>

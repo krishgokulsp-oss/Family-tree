@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thekkumpuram Family Gallery — Portraits, ceremonies, gatherings, and historical documents across six generations." />
+  <title>Gallery — Thekkumpuram Family Archive</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>" />
+  <style>.gh-tall{min-height:340px}.gh-med{min-height:240px}.gh-short{min-height:180px}</style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Thekkumpuram Family Archive — Home">
+        <svg class="nav-logo-mark" width="28" height="36" viewBox="0 0 30 38" fill="none" aria-hidden="true">
+          <path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/>
+          <path d="M15 5C15 5 13.5 8 13.5 9.5C13.5 10.33 14.17 11 15 11C15.83 11 16.5 10.33 16.5 9.5C16.5 8 15 5 15 5Z" fill="var(--cream)" opacity="0.5"/>
+          <path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/>
+          <path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/>
+          <rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/>
+          <rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/>
+          <ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/>
+          <rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/>
+          <ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/>
+          <rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/>
+          <ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">Thekkumpuram</span>
+          <span class="nav-logo-tagline">Family Archive · Est. 1854</span>
+        </div>
+      </a>
+      <nav class="nav-menu" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="family.html" class="nav-link">Family</a>
+        <a href="history.html" class="nav-link">History</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="blog.html" class="nav-link">Stories</a>
+      </nav>
+      <button class="nav-search-btn" aria-label="Search the archive"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="search-overlay" role="dialog" aria-modal="true"><button class="search-close">✕</button><div class="search-box"><h3>Search the Archive</h3><div class="search-input-wrap"><input type="search" placeholder="Search ancestors, places, years…" /><button class="search-btn" type="button">Search</button></div></div></div>
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container"><div class="breadcrumb-inner"><a href="index.html">Home</a><span class="breadcrumb-sep">›</span><span aria-current="page">Gallery</span></div></div>
+  </nav>
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <span class="tag" style="display:block;margin-bottom:0.75rem;">400+ Photographs Preserved</span>
+      <div class="divider center" aria-hidden="true"></div>
+      <h1 id="page-title">The Family <em>Gallery</em></h1>
+      <p>Portraits, temple ceremonies, weddings, homestead photographs, and historical documents — a visual record of six generations of Thekkumpuram family life in Kerala and beyond.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="gallery-section section-pad" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 class="sr-only" id="gallery-heading">Photo Gallery</h2>
+
+        <div class="gallery-categories" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn active" type="button" data-cat="all">All Photos</button>
+          <button class="filter-btn" type="button" data-cat="portraits">Portraits</button>
+          <button class="filter-btn" type="button" data-cat="weddings">Weddings</button>
+          <button class="filter-btn" type="button" data-cat="generations">Generations</button>
+          <button class="filter-btn" type="button" data-cat="ceremonies">Ceremonies</button>
+          <button class="filter-btn" type="button" data-cat="documents">Documents</button>
+          <button class="filter-btn" type="button" data-cat="places">Places</button>
+        </div>
+
+        <div style="display:flex;gap:3rem;margin-bottom:2.5rem;padding:1.25rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);flex-wrap:wrap;" class="reveal">
+          <div><div style="font-family:var(--font-display);font-size:1.75rem;color:var(--brown-dark);line-height:1;">412</div><div style="font-family:var(--font-ui);font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-top:0.2rem;">Total Items</div></div>
+          <div><div style="font-family:var(--font-display);font-size:1.75rem;color:var(--brown-dark);line-height:1;">1870s</div><div style="font-family:var(--font-ui);font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-top:0.2rem;">Earliest Item</div></div>
+          <div><div style="font-family:var(--font-display);font-size:1.75rem;color:var(--brown-dark);line-height:1;">6</div><div style="font-family:var(--font-ui);font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-top:0.2rem;">Generations</div></div>
+          <div><div style="font-family:var(--font-display);font-size:1.75rem;color:var(--brown-dark);line-height:1;">7</div><div style="font-family:var(--font-ui);font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-top:0.2rem;">Categories</div></div>
+        </div>
+
+        <div class="gallery-masonry" role="list">
+
+          <div class="gallery-item reveal" data-cat="portraits" role="listitem" tabindex="0" aria-label="Portrait of Raman Thekkumpuram, c.1875">
+            <div class="gallery-img-placeholder gh-tall" role="img"><span>👴</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Portrait</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1875</div>Raman Thekkumpuram — Studio Portrait</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-1" data-cat="places" role="listitem" tabindex="0" aria-label="Thekkumpuram Nalukettu, c.1955">
+            <div class="gallery-img-placeholder gh-med" role="img"><span>🏛️</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Nalukettu</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1955</div>The Thekkumpuram Nalukettu — Thrissur</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-2" data-cat="documents" role="listitem" tabindex="0" aria-label="Original land deed 1854">
+            <div class="gallery-img-placeholder gh-short" role="img"><span>📜</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Land Deed</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1854</div>Original Land Deed — Grantha Script</div></div>
+          </div>
+
+          <div class="gallery-item reveal" data-cat="weddings" role="listitem" tabindex="0" aria-label="Govindan Nair wedding, 1924">
+            <div class="gallery-img-placeholder gh-med" role="img"><span>💒</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Wedding</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1924</div>Govindan Nair &amp; Sarada Amma — Wedding</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-1" data-cat="ceremonies" role="listitem" tabindex="0" aria-label="Onam celebration at the nalukettu, c.1960">
+            <div class="gallery-img-placeholder gh-tall" role="img"><span>🌸</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Onam</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1960</div>Onam Celebration — Nalukettu Courtyard</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-2" data-cat="portraits" role="listitem" tabindex="0" aria-label="Devaki Amma portrait, c.1890">
+            <div class="gallery-img-placeholder gh-short" role="img"><span>👵</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Portrait</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1890</div>Devaki Amma — Matriarch</div></div>
+          </div>
+
+          <div class="gallery-item reveal" data-cat="documents" role="listitem" tabindex="0" aria-label="Temple records book, c.1900">
+            <div class="gallery-img-placeholder gh-med" role="img"><span>📔</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Temple Record</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1900</div>Family Temple Records — Manuscript</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-1" data-cat="generations" role="listitem" tabindex="0" aria-label="Four generations portrait, 1958">
+            <div class="gallery-img-placeholder gh-short" role="img"><span>👨‍👩‍👧‍👦</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Four Generations</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1958</div>Four Generations — Sunday Portrait</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-2" data-cat="places" role="listitem" tabindex="0" aria-label="Paddy fields beside the tharavadu, c.1940">
+            <div class="gallery-img-placeholder gh-tall" role="img"><span>🌾</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Paddy Fields</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1940</div>Thekkumpuram Paddy Fields — Harvest Season</div></div>
+          </div>
+
+          <div class="gallery-item reveal" data-cat="ceremonies" role="listitem" tabindex="0" aria-label="Vishu celebration 1972">
+            <div class="gallery-img-placeholder gh-med" role="img"><span>🪔</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Vishu</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1972</div>Vishu Kani — Morning Ritual</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-1" data-cat="weddings" role="listitem" tabindex="0" aria-label="Sarojini wedding 1967">
+            <div class="gallery-img-placeholder gh-short" role="img"><span>💍</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Wedding</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1967</div>Sarojini &amp; Krishnakumar Menon — Wedding</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-2" data-cat="portraits" role="listitem" tabindex="0" aria-label="Krishnan Nair formal portrait, c.1920">
+            <div class="gallery-img-placeholder gh-med" role="img"><span>👨</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Portrait</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1920</div>Krishnan Nair — Formal Portrait</div></div>
+          </div>
+
+          <div class="gallery-item reveal" data-cat="generations" role="listitem" tabindex="0" aria-label="Family reunion photograph, 1980">
+            <div class="gallery-img-placeholder gh-short" role="img"><span>👨‍👩‍👦‍👦</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Reunion</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1980</div>Thekkumpuram Family Reunion — 60+ Members</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-1" data-cat="places" role="listitem" tabindex="0" aria-label="Nalukettu courtyard with nilavilakku">
+            <div class="gallery-img-placeholder gh-tall" role="img"><span>🏡</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Courtyard</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">c. 1970</div>Nalukettu Inner Courtyard — Evening Light</div></div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-2" data-cat="documents" role="listitem" tabindex="0" aria-label="Sarojini's handwritten archive notebooks, 1993">
+            <div class="gallery-img-placeholder gh-med" role="img"><span>📓</span><span style="font-size:0.75rem;font-family:var(--font-ui);color:var(--muted);">Archive Notebooks</span></div>
+            <div class="gallery-overlay"><div class="gallery-caption"><div class="gallery-caption-year">1993–1998</div>Sarojini's Oral History Notebooks — 12 Volumes</div></div>
+          </div>
+
+        </div>
+
+        <div class="reveal" style="text-align:center;margin-top:3rem;">
+          <p style="font-family:var(--font-ui);font-size:0.72rem;letter-spacing:0.1em;color:var(--muted);margin-bottom:1.5rem;">Showing 15 of 412 items</p>
+          <a href="#" class="btn btn-outline">Load More Photographs</a>
+        </div>
+
+        <div class="reveal" style="margin-top:5rem;background:var(--brown-dark);padding:3rem;text-align:center;color:var(--parchment);">
+          <span style="font-family:var(--font-ui);font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-light);display:block;margin-bottom:0.5rem;">Help Us Preserve History</span>
+          <div style="width:40px;height:1px;background:var(--gold-light);margin:1rem auto;" aria-hidden="true"></div>
+          <h3 style="font-family:var(--font-display);font-size:1.8rem;font-weight:400;margin-bottom:1rem;">Have a Photograph to Contribute?</h3>
+          <p style="max-width:480px;margin:0 auto 2rem;line-height:1.8;color:rgba(250,246,239,0.7);">If you have photographs, documents, jatakas, or any other materials related to the Thekkumpuram family, we would be honored to include them in the archive. High-resolution scans preferred.</p>
+          <a href="mailto:archive@thekkumpuram.org" class="btn btn-gold">Donate to the Archive</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close image viewer">✕</button>
+    <div class="lightbox-content">
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous image">‹</button>
+      <img class="lightbox-img" src="" alt="Heritage photograph" />
+      <button class="lightbox-nav lightbox-next" aria-label="Next image">›</button>
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex;align-items:center;gap:0.65rem;margin-bottom:0.25rem;">
+            <svg width="20" height="26" viewBox="0 0 30 38" fill="none" style="color:var(--gold-light);" aria-hidden="true"><path d="M15 1C15 1 11.5 6.5 11.5 9.5C11.5 11.43 13.07 13 15 13C16.93 13 18.5 11.43 18.5 9.5C18.5 6.5 15 1 15 1Z" fill="currentColor"/><path d="M7 17C7 14 10.58 12 15 12C19.42 12 23 14 23 17V18.5H7V17Z" fill="currentColor"/><path d="M7 18.5L3 20.5L5.5 18.5H7Z" fill="currentColor"/><rect x="5.5" y="18.5" width="19" height="2" rx="1" fill="currentColor"/><rect x="13.5" y="20.5" width="3" height="3" fill="currentColor"/><ellipse cx="15" cy="24" rx="6" ry="1.8" fill="currentColor"/><rect x="13.5" y="25.5" width="3" height="4" fill="currentColor"/><ellipse cx="15" cy="30" rx="7.5" ry="2" fill="currentColor"/><rect x="5" y="32" width="20" height="2.5" rx="1.25" fill="currentColor"/><ellipse cx="15" cy="36.5" rx="9" ry="1.8" fill="currentColor"/></svg>
+            <p class="footer-brand-name">Thekkumpuram</p>
+          </div>
+          <p class="footer-brand-sub">Family Archive · Est. 1854 · Thrissur, Kerala</p>
+          <p class="footer-about">A living archive preserving the stories, portraits, and heritage of the Thekkumpuram tharavadu across six generations and two centuries.</p>
+        </div>
+        <div><p class="footer-heading">Navigate</p><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="family.html">Family Tree</a></li><li><a href="history.html">History</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Stories</a></li></ul></div>
+        <div><p class="footer-heading">Gallery Albums</p><ul class="footer-links"><li><a href="#">Portraits</a></li><li><a href="#">Weddings</a></li><li><a href="#">Ceremonies</a></li><li><a href="#">Generations</a></li><li><a href="#">Documents</a></li></ul></div>
+        <div><p class="footer-heading">Contact</p><ul class="footer-links"><li><a href="mailto:archive@thekkumpuram.org">archive@thekkumpuram.org</a></li><li><a href="#">Donate a Photo</a></li><li><a href="#">Submit a Correction</a></li></ul></div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>© 2024 Thekkumpuram Family Archive. All rights reserved.</p>
+        <p style="color:rgba(250,246,239,0.4);">Curated with care — for those who came before and those who follow.</p>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-top" aria-label="Scroll to top of page"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
